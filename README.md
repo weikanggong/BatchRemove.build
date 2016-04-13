@@ -1,5 +1,5 @@
 # BatchRemove
-Matlab code for some popular batch correction methods (building..).
+Matlab code for some popular batch correction methods (dev).
 
 Code available:
 
@@ -15,8 +15,3 @@ J.T. Leek and J.D. Storey. Capturing heterogeneity in gene expression studies by
 
 J.T. Leek and J.D. Storey. A general framework for multiple testing dependence. Proceedings of the National Academy of Sciences 105:18718-18723, 2008
 
-(1). sva_numsv: bioconductor-sva-num.sv
-
-(2). sva_2stepsva: bioconductor-sva-twostepsva.build
-
-coming soon
