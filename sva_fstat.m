@@ -6,11 +6,11 @@ function [fstats,p]=sva_fstat(data,mod,mod0)
 % defined by the design matrices for the alternative (mod) and and null (mod0) cases.
 % The columns of mod0 must be a subset of the columns of mod.
 % Input:
-%    dat: m-by-n, m feature and n samples
+%    data: m-by-n, m feature and n samples
 %    mod: n-by-p, The model matrix being used to fit the data.
 %    mod0: n-by-p1, The null model being compared when fitting the data.
 % Output:
-%    Fstat: A vector of F-statistic one for each row of dat.
+%    fstats: A vector of F-statistic one for each row of dat.
 %        p: p-value.
 %
 n=size(data,2);
