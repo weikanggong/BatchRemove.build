@@ -1,5 +1,5 @@
-# BatchRemove
-Matlab code for some popular batch correction methods (dev).
+# BatchRemove.build
+Matlab code for some popular batch correction methods (test in Matlab2015b).
 
 Code available:
 
