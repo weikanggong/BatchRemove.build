@@ -78,7 +78,7 @@ function bayesdata=ComBat(dat, batch, mod , par_prior)
     delta_hat=[];
     for i=1:n_batch
         ind1=batch==batch1(i);
-        delta_hat= cat(1,delta_hat, var(s_data(:, ind1)'));
+        delta_hat= cat(1,delta_hat, var(s_data(:, ind1), 0, 2)');
     end
     gamma_bar = mean(gamma_hat,2);
     t2 = var(gamma_hat');
